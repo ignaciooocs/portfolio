@@ -18,7 +18,7 @@ export default function RootLayout({
     <html lang="en">
       <body className={`${inter.className} flex items-center flex-col dark:bg-slate-900 dark:text-white`}>
         <Header />
-        <main className='w-3/5'>
+        <main className='w-5/6 md:w-3/5'>
           {children}
         </main>
       </body>

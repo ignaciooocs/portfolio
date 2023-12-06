@@ -9,11 +9,11 @@ export default function Header() {
   const mostrarElemento = usePosition()
 
   return (
-    <header className='w-full py-6 px-9 flex justify-center sticky top-0 bg-white bg-opacity-20 dark:bg-slate-900 dark:bg-opacity-20'>
-      <section className={`flex ${mostrarElemento ? 'justify-between' : 'justify-end'} w-3/4`}>
+    <header className='w-full py-6 px-9 flex justify-center sticky top-0 bg-white bg-opacity-40 dark:bg-slate-900 dark:bg-opacity-40'>
+      <section className={`flex ${mostrarElemento ? 'justify-between' : 'justify-end'} w-11/12 sm:w-3/4`}>
         {mostrarElemento && <Title />}
         <button onClick={toggleDarkMode}>
-          {isDarkMode ? <IoMoonOutline fontSize={25} /> : <IoSunnyOutline fontSize={25} />}
+          {isDarkMode ? <IoMoonOutline fontSize={25} className='title' /> : <IoSunnyOutline className='title' fontSize={25} />}
         </button>
       </section>
     </header>
