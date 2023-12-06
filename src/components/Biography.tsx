@@ -10,7 +10,7 @@ export default function Biography() {
           Soy un Desarrollador
           <FontBold text=' FullStack ' color='pink' />
           especializado, con 2 años de experiencia en la creación de
-          <FontBold text=' Aplicaciones Web' color='blue' />.
+          <span className='text-blue-500 font-bold'>Aplicaciones Web</span>.
           Mi principal área de enfoque es el desarrollo
           <FontBold text=' Frontend ' color='pink' />
           utilizando <b>ReactJS</b> con <b>TypeScript</b> y su entorno asociado.
@@ -21,7 +21,7 @@ export default function Biography() {
         <p className='text-lg text-slate-900 dark:text-white'>
           Me gusta aprender constantemente sobre nuevas tecnologías y mantenerme al día con las últimas tendencias.,
           Actualmente estoy cursando la carrera
-          <FontBold text=' Analista Programador ' color='blue' />
+          <span className='text-blue-500 font-bold'>Analista Programador</span>
           del
           <FontBold text=' Centro de Formacion Técnica INACAP' color='pink' />
         </p>
