@@ -19,11 +19,11 @@ export default function Biography() {
           con el entorno de <b>NodeJS</b>.
         </p>
         <p className='text-lg text-slate-900 dark:text-white'>
-          Me gusta aprender constantemente sobre nuevas tecnologías y mantenerme al día con las últimas tendencias.,
+          Me gusta aprender constantemente sobre nuevas tecnologías y mantenerme al día con las últimas tendencias.
           Actualmente estoy cursando la carrera
           <span className='text-blue-500 font-bold'> Analista Programador </span>
           del
-          <FontBold text=' Centro de Formacion Técnica INACAP' color='pink' />
+          <FontBold text=' Centro de Formación Técnica INACAP' color='pink' />.
         </p>
       </section>
     </section>
