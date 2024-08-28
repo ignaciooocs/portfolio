@@ -3,6 +3,7 @@ import { IoSend, IoCopy } from 'react-icons/io5'
 import { useState } from 'react'
 import Tag from './Tag'
 import { handleSendEmail } from '@/utils/function'
+import SocialNetwork from './SocialNetwork'
 export default function SendEmail() {
   const [isHovered, setIsHovered] = useState({
     send: false,
@@ -27,7 +28,7 @@ export default function SendEmail() {
 
   return (
     <section className='flex flex-col gap-6'>
-      <h2 className='text-xl font-bold text-slate-900 dark:text-white'>Email</h2>
+      <h2 className='text-xl font-bold text-slate-900 dark:text-white'>Social</h2>
       <section className='flex gap-4'>
         <input className='bg-gray-400 w-full md:w-6/12 text-slate-900 dark:text-white bg-opacity-30 font-bold py-2 px-3 rounded-md' value='ignaciomejiascisternas@gmail.com' disabled readOnly />
         <section className='flex justify-center items-center gap-2'>
@@ -53,6 +54,7 @@ export default function SendEmail() {
           </div>
         </section>
       </section>
+      <SocialNetwork />
     </section>
   )
 }

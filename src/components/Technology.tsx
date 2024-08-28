@@ -10,7 +10,7 @@ export default function Technology({ children, name }: { children: React.ReactNo
   }
 
   return (
-    <section className='flex hover:scale-110 transition-all relative' onMouseEnter={() => handleHover(true)} onMouseLeave={() => handleHover(false)}>
+    <section className='flex hover:scale-110 transition-all relative z-10' onMouseEnter={() => handleHover(true)} onMouseLeave={() => handleHover(false)}>
       {isHovered && <Tag name={name} />}
       {children}
     </section>
